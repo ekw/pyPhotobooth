@@ -33,6 +33,6 @@ Complete instructions here: http://opencv.willowgarage.com/wiki/InstallGuide
 Running pyPhotobooth
 --------------------
 At command prompt, go to directory where photobooth.bat is located.
-Run photobooth.bat with the location of a settings.ini file.
+Run photobooth.bat with the location of a settings.ini file.  (This assumes python.exe is in your PATH.  Edit photobooth.bat to provide full path to python.exe if necessary)
 
 Example: photobooth.bat event1conf\settings.ini
