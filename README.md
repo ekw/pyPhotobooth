@@ -23,10 +23,10 @@ Complete instructions here: http://opencv.willowgarage.com/wiki/InstallGuide
 1. Extract OpenCV-2.3.1-win-superpack.exe to C:\OpenCV
 2. Ensure cmake-2.8.7-win32-x86.exe is installed
 3. From DOS prompt:
-    a. cd C:\OpenCV  # the directory containing INSTALL, CMakeLists.txt etc.
-    b. mkdir release
-    c. cd release
-    d. cmake -D:CMAKE_BUILD_TYPE=RELEASE -D:BUILD_PYTHON_SUPPORT=ON C:\OpenCV
+    * a. cd C:\OpenCV  # the directory containing INSTALL, CMakeLists.txt etc.
+    * b. mkdir release
+    * c. cd release
+    * d. cmake -D:CMAKE_BUILD_TYPE=RELEASE -D:BUILD_PYTHON_SUPPORT=ON C:\OpenCV
 4. Open/build C:\opencv\release\OpenCV.sln with Microsoft Visual Studio (I used VS2010 Professional.  OpenCV docs say Express Editions of VS2008 and VS2010 also work).
 5. After successful build, copy cv.py and cv2.pyd in C:\opencv\build\python\2.7\ to C:\Python27\Lib\site-packages
 
