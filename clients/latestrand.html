@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+	<head> 
+		<title>Photobooth</title> 
+		<meta charset="utf-8">
+    <META HTTP-EQUIV="refresh" CONTENT="5">
+		<script src="jquery-latest.js"></script> 
+		<script src="jquery-photo-resize.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(document).ready(function() {
+				$("img").photoResize({
+					bottomSpacing: 15
+				});
+			});
+		</script>
+		<style type="text/css" media="screen">
+			body { text-align: center; }
+		</style>
+	</head> 
+	<body>
+		<img src="http://localhost:8080/latestrand" alt="">
+	</body> 
+</html>
