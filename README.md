@@ -1,7 +1,7 @@
 pyPhotobooth
 =============
 
-I wrote this photobooth software (and built the photobooth itself) for my sister's wedding banquet over the course of a month back in 2012.  During the wedding banquet, the software ran under WinXP and printed to a Canon PIXMA MG5320, but I have since ran it successfully on WinVista and Win7.  The software should also run under Linux, but printing currently only works with Windows. Printing should work for Linux as well if the code in photobooth.print.winPrint module is ported.  The only printer I have used with pyPhotobooth is the Canon PIXMA MG5320.
+I wrote this photobooth software (and built the photobooth itself) for my sister's wedding banquet over the course of a month back in 2012.  During the wedding banquet, the software ran under WinXP and printed to a Canon PIXMA MG5320, but I have since ran it successfully on WinVista and Win7 for a friend's wedding in 2014 and a birthday party in 2015.  The software should also run under Linux, but printing currently only works in Windows. Printing in Linux should work as well if the code in the photobooth.print.winPrint module is ported.  The only printer I have used with pyPhotobooth is a Canon PIXMA MG5320.
 
 Prerequisites
 -------------
