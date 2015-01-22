@@ -30,6 +30,8 @@ Complete instructions here: http://opencv.willowgarage.com/wiki/InstallGuide
 4. Open/build C:\opencv\release\OpenCV.sln with Microsoft Visual Studio (I used VS2010 Professional.  OpenCV docs say Express Editions of VS2008 and VS2010 also work).
 5. After successful build, copy cv.py and cv2.pyd in C:\opencv\build\python\2.7\ to C:\Python27\Lib\site-packages
 
+Note: A user reported back to me that he was able to install the pre-built OpenCV libraries (http://docs.opencv.org/doc/tutorials/introduction/windows_install/windows_install.html), rather than compile them as I did, and successfully use pyPhotoBooth.  I don't remember now why I took the more complicated route of compiling from the OpenCV source.  I think I couldn't find or had problems using the pre-built binaries.  Though compiling is very straightforward and I didn't run into any problems at all, definitely try the pre-built libraries first.
+
 Running pyPhotobooth
 --------------------
 At command prompt, go to directory where photobooth.bat is located.
